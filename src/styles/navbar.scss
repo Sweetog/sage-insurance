@@ -1,0 +1,123 @@
+$nav-link: rgb(13, 72, 99);
+$nav-border: rgba(56, 56, 56, 0.418);
+
+.header {
+    .header-1 {
+        margin-left: 50px;
+        margin-top: 15px;
+        .img-responsive {
+            height: auto;
+            width: 80%;
+            display: block;
+        }
+
+        .signin {
+            margin-right: 10%;
+            margin-top: 1%;
+            float: right;
+        }
+
+        .contact-number {
+            display: inline-flex;
+            margin-right: 2%;
+            color: rgb(38, 130, 173);
+        }
+
+        .signin-link {
+            color: $nav-link;
+        }
+    }
+
+    .navbar {
+        border-bottom: solid 2px $nav-border;
+
+        .navbrand {
+            display: none;
+        }
+
+        .nav-link {
+            border: 0px;
+            display: block;
+            color: $nav-link !important;
+            padding: 0 0.5em 0.5em;
+            border-top: solid 2px rgba(42, 117, 187, 0);
+            border-bottom: solid 2px rgba(42, 117, 187, 0);
+        }
+    
+        .nav-link:hover {
+            color: rgb(38, 130, 173) !important;
+            border-bottom: solid 2px #2081bf;
+            border-top: solid 2px rgba(42, 117, 187, 0);
+        }
+    
+        .nav-link::after {
+            content: ' ';
+            display: block;
+            height: 2px;
+        }
+
+        .last-link {
+            display: none;
+        }
+    
+        @media screen and (max-width: 991px) {
+            .navbrand {
+                display: block;
+            }
+
+            .nav-link {
+                border-top: solid 2px $nav-border;
+                border-right: solid 2px $nav-border;
+                border-left: solid 2px $nav-border;
+                width: 100%;
+                padding: 7px; 
+            }
+
+            .toggle-btn {
+                margin-bottom: 4px;
+            }
+    
+            .last-link {
+                display: block;
+                border-bottom: solid 2px $nav-border;
+            }
+    
+            .nav-link:hover {
+                color: white !important;
+                border: 0px;
+                background-color: rgb(38, 130, 173);
+                margin: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px){
+    .header-1 {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 991px){
+    .header {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        width: 100%;
+        background-color: white;
+        z-index: 2000;
+
+        .header-1 {
+            margin-left: 150px;
+        }
+
+        .mr-auto {
+            margin-left: 128px
+        }
+        .nav-link {
+            font-stretch: expanded;
+            margin-right: 35px !important;
+        }
+    }
+    
+}
