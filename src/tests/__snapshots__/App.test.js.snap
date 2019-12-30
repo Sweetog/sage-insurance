@@ -1,9 +1,404 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App should render without crashing 1`] = `
-<div>
-  <h1>
-    Welcome to Sage Insurance
-  </h1>
-</div>
+Array [
+  <div
+    className="header"
+  >
+    <div
+      className="header-1"
+    >
+      <div
+        classNmae="logo"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            className=""
+            src={Object {}}
+          />
+        </a>
+        <a
+          className="signin-link signin"
+          href=""
+          onClick={[Function]}
+        >
+          Sign In
+        </a>
+        <div
+          className="contact-number signin"
+        >
+          (833) 724-3467
+        </div>
+      </div>
+    </div>
+    <div
+      className="header-2"
+    >
+      <nav
+        className="navbar navbar navbar-expand-lg navbar-light"
+      >
+        <a
+          className="navbrand navbar-brand"
+          href="#home"
+        >
+          <img
+            className=""
+            src={Object {}}
+          />
+        </a>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="toggle-btn navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="mr-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="nav-link nav-link"
+              data-rb-event-key="/"
+              href="/"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              HOME
+            </a>
+            <a
+              className="nav-link nav-link"
+              data-rb-event-key="#home"
+              href="#home"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              FILE A CLAIM
+            </a>
+            <a
+              className="nav-link nav-link"
+              data-rb-event-key="#home"
+              href="#home"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              GET FREE QUOTE
+            </a>
+            <a
+              className="nav-link nav-link"
+              data-rb-event-key="#home"
+              href="#home"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              FAQS
+            </a>
+            <a
+              className="nav-link nav-link"
+              data-rb-event-key="#"
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              BLOG
+            </a>
+            <a
+              className="nav-link last-link nav-link"
+              data-rb-event-key="#"
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              SIGN IN
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>,
+  <div
+    className="banner-section"
+  >
+    <img
+      className="img-self-storage"
+      src={Object {}}
+    />
+    <div
+      className="banner-info"
+    >
+      <p
+        className="banner-slogan"
+      >
+        <b>
+          Providing affordable coverage and award winning client services to self storage tenants for over 20 years
+        </b>
+      </p>
+      <button
+        className="apply-btn-banner-sctn btn btn-success"
+        disabled={false}
+        type="button"
+      >
+        Apply Now
+      </button>
+    </div>
+  </div>,
+  <div
+    className="card-container"
+  >
+    <div
+      className="info-cards"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="lss col-lg-1 col-sm-0"
+          />
+          <div
+            className="tss col-lg-5 col-sm-12"
+          >
+            <div
+              className="detail-card shadow card-1 card"
+              variant=""
+            >
+              <img
+                className="card-img-top card-img"
+                src={Object {}}
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title card-title h5"
+                >
+                  Managing General Agency
+                </div>
+                <p
+                  className="card-text"
+                >
+                  <ol
+                    className="large-scn-list"
+                  >
+                    <li
+                      className="list-item"
+                    >
+                      Binding, underwriting and pricing authority.
+                    </li>
+                    <li
+                      className="list-item"
+                    >
+                      Two national A-related programs
+                    </li>
+                    <li
+                      className="list-item"
+                    >
+                      Short tail inlannd Marine and Tenant Legal Liability (TTL) policies for self-storage operations and apartment owners.
+                    </li>
+                    <li
+                      className="list-item"
+                    >
+                      Direct model as well as a broker-partner model in all 50 states
+                    </li>
+                  </ol>
+                  
+                </p>
+                <button
+                  className="expand-btn btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  View more
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="rss col-lg-5 col-sm-12"
+          >
+            <div
+              className="detail-card shadow card-2 card"
+            >
+              <img
+                className="card-img-top card-img"
+                src={Object {}}
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title card-title h5"
+                >
+                  Insurance As a Service
+                </div>
+                <p
+                  className="card-text"
+                >
+                  <ol
+                    className="large-scn-list"
+                  >
+                    <li
+                      className="list-item"
+                    >
+                      Integrate our forms into our clients technology platforms, bridging the gap between clients and customers.
+                    </li>
+                    <li
+                      className="list-item"
+                    >
+                      We increase the functionality of owners platforms and decrease  the friction between them and their tenants allowing us to remain relevant and meaninful.
+                    </li>
+                  </ol>
+                  
+                </p>
+                <button
+                  className="expand-btn btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  View more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="our-assurance"
+  >
+    <div
+      className="assurance-info container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-4"
+        >
+          <h3
+            className="your-back"
+          >
+            We Have 
+            <br />
+            Your Back
+          </h3>
+        </div>
+        <div
+          className="col-lg-8"
+        >
+          <p
+            className="your-back-info"
+          >
+            Providing protection for your tenants’ stored property doesn’t have to come at the expense of your security. An on-site tenant insurance program will create further separation between you and yourtenants, legally, eliminating gray-areas when it comes to claims and liability.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div
+        className="assurance-img row"
+      >
+        <div
+          className="img-text col-lg-3 col-sm-12"
+        >
+          <img
+            className="rounded-circle"
+            src={Object {}}
+          />
+          <h5
+            className="not-supported"
+          >
+            For properties
+          </h5>
+        </div>
+        <div
+          className="img-text col-lg-3 col-sm-12"
+        >
+          <img
+            className="rounded-circle tenant-img"
+            src={Object {}}
+          />
+          <h5
+            className="supported"
+          >
+            For Tenants
+          </h5>
+        </div>
+        <div
+          className="img-text col-lg-3 col-sm-12"
+        >
+          <img
+            className="rounded-circle tenant-img"
+            src={Object {}}
+          />
+          <h5
+            className="not-supported"
+          >
+            For Managers
+          </h5>
+        </div>
+        <div
+          className="img-text col-lg-3 col-sm-12"
+        >
+          <img
+            className="rounded-circle tenant-img"
+            src={Object {}}
+          />
+          <h5
+            className="not-supported"
+          >
+            For Owners
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="footer"
+  >
+    <br />
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <img
+            className=""
+            src={Object {}}
+          />
+          <p
+            className="insights"
+          >
+            © 2019 Sage Storage Insurance Services. All rights reserved.
+          </p>
+        </div>
+        <div
+          className="col"
+        />
+      </div>
+    </div>
+  </div>,
+]
 `;
