@@ -19,18 +19,12 @@ body {
     width: 100%;
   }
 
+  .apply-link:hover {
+    text-decoration: none;
+  }
+
   .apply-btn-banner-sctn {
     display: block;
-  }
-}
-
-.footer {
-  background-color: #2b2b2b;
-  display: block;
-
-  .insights {
-    color: rgba(255, 255, 255, 0.534);
-    margin-left: 3%;
   }
 }
 
@@ -80,7 +74,6 @@ body {
     }
 }
 }
-
 
 .card-title {
   color: rgb(36, 113, 148);
@@ -168,8 +161,11 @@ margin-top: 5%;
     width: 95%;
   }
 
-  .card-1 {
+  .card-1-column {
     margin-top: 220px;
+  }
+
+  .card-1 {
     margin-bottom: 15px;
   }
 

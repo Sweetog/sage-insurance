@@ -1,0 +1,143 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.apply-logo {
+    margin: 10px 10px 10px 15px;
+}
+
+.phone-image {
+    width: 2%;
+}
+
+.apply-contact {
+    display: inline;
+    margin-left: 10px;
+}
+
+.apply-header {
+    padding: 5px 5px 20px 5px;
+    border-bottom: rgba(56, 56, 56, 0.418) solid 2px;
+}
+
+.contact-div {
+    margin-left: 70%;
+    display: inline;
+    color: #13699e;
+}
+
+.apply-banner-img {
+    width: 100%;
+    border: #97c6e4 solid;
+}
+
+.banner-img-div {
+    position: relative;
+}
+
+.banner-layer {
+    background-color: #262727c9;
+    position: absolute;
+    top: 0em;
+    bottom: 0em;
+    width: 100%;
+    text-align: center;
+    color: rgb(228, 231, 235);
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-size-adjust: 12px;
+}
+
+.banner-layer p {
+    margin-top: 60px !important;
+    font-size: 30pt;;
+}
+
+.progress-svg {
+    border-radius: 200px;
+    position: absolute;
+    top: 28.5em;
+    left: 45%;
+    transform: rotate(-90deg);
+}
+
+.svg-text {
+    margin-bottom: 0px;
+    text-anchor: middle;
+    fill: #13699e;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.progress-circle {
+    stroke-dasharray: 339.29200658769764;
+    stroke-dashoffset: 300.29200658769764;
+}
+
+.apply-form {
+    margin-top: 15%;
+    padding: 15px 30px 15px 30px;
+}
+
+.form-label {
+    color: #154d72;
+    font-weight: bold;
+}
+
+.select-menu {
+    border: #55565796 solid 2px;
+}
+
+.select-menu:focus {
+    box-shadow: none;
+}
+
+.form-input {
+    border: #45454683 solid 2px;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: 2px solid rgba(17, 73, 158, 0.301);
+}
+
+@media screen and (max-width: 991px) {
+    .phone-image {
+        width: 5%;
+    }
+
+    .contact-div {
+        margin-left: 25%;
+    }
+
+    .apply-contact {
+        margin-left: 6px;
+    }
+
+    .banner-layer {
+        p {
+            margin-top: 5px !important;
+            font-size: 12pt;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .progress-svg {
+        position: static !important;
+        margin-left: 32% !important;
+        margin-top: 3%;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1300px) {
+    .progress-svg {
+        position: static !important;
+        margin-left: 40% !important;
+        margin-top: 3%;
+    }
+}

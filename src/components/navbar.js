@@ -12,7 +12,6 @@ function NavbarComponent() {
             <div className="header-1">
                 <div classNmae="logo">
                     <Link to="/"><Image src={require("../images/logo.svg")}></Image></Link>
-                    {/* <Image className="img-responsive" src={require("../images/slogan.png")}></Image> */}
                     <Link className="signin-link signin">Sign In</Link>
                     <div className="contact-number signin">(833) 724-3467</div>
                 </div>

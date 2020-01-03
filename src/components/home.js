@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 import "../styles/home.scss";
 
 function Home () {
@@ -28,16 +29,16 @@ function Home () {
           <b>Providing affordable coverage and
         award winning client services to self storage tenants for over 20 years
         </b></p>
-      <Button className="apply-btn-banner-sctn" variant="success">Apply Now</Button>
+      <Link className="apply-link" to="/apply"><Button className="apply-btn-banner-sctn" variant="success">Apply Now</Button></Link>
     </div>
     </div>
     <div className="card-container" >
     <div className="info-cards">
       <Container>
         <Row>
-          <Col lg="1" className="lss" sm="0"></Col>
-          <Col lg="5" className="tss" sm="12">
-            <Card variant="" className="detail-card shadow card-1">
+          <Col lg="1"  sm="0"></Col>
+          <Col lg="5" className="card-1-column" sm="12">
+            <Card  className="detail-card shadow card-1">
             <Card.Img className="card-img" variant="top" src={require("../images/business.png")} />
             <Card.Body>
             <Card.Title className="card-title">Managing General Agency</Card.Title>
@@ -64,7 +65,7 @@ function Home () {
       </Card.Body>
       </Card>
     </Col>
-    <Col className="rss" lg="5" sm="12">
+    <Col lg="5" sm="12">
       <Card className="detail-card shadow card-2" >
       <Card.Img className="card-img" variant="top" src={require("../images/insure.jpeg")} />
       <Card.Body>
@@ -124,21 +125,8 @@ function Home () {
         </Col>
       </Row>
     </Container>
-    </div>
-    <div className="footer">
     <br></br>
-    <Container>
-      <Row>
-        <Col sm="12">
-        <Image  src={require("../images/logo2.png")}></Image>
-        <p className="insights">&copy; 2019 Sage Storage Insurance Services. All rights reserved.</p>
-        </Col>
-        <Col>
-        </Col>
-      </Row>
-    </Container>
     </div>
-
     </>
   );
 }

@@ -147,13 +147,19 @@ Array [
           Providing affordable coverage and award winning client services to self storage tenants for over 20 years
         </b>
       </p>
-      <button
-        className="apply-btn-banner-sctn btn btn-success"
-        disabled={false}
-        type="button"
+      <a
+        className="apply-link"
+        href="/apply"
+        onClick={[Function]}
       >
-        Apply Now
-      </button>
+        <button
+          className="apply-btn-banner-sctn btn btn-success"
+          disabled={false}
+          type="button"
+        >
+          Apply Now
+        </button>
+      </a>
     </div>
   </div>,
   <div
@@ -169,14 +175,13 @@ Array [
           className="row"
         >
           <div
-            className="lss col-lg-1 col-sm-0"
+            className="col-lg-1 col-sm-0"
           />
           <div
-            className="tss col-lg-5 col-sm-12"
+            className="card-1-column col-lg-5 col-sm-12"
           >
             <div
               className="detail-card shadow card-1 card"
-              variant=""
             >
               <img
                 className="card-img-top card-img"
@@ -231,7 +236,7 @@ Array [
             </div>
           </div>
           <div
-            className="rss col-lg-5 col-sm-12"
+            className="col-lg-5 col-sm-12"
           >
             <div
               className="detail-card shadow card-2 card"
